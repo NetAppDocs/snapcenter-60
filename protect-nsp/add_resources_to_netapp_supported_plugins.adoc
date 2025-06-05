@@ -154,8 +154,8 @@ Resource Settings:
 * ORA_TEMP specifies the directory for temporary files.
 * ORACLE_HOME specifies the directory where the Oracle software is installed.
 * ARCHIVE_LOG_ONLY specifies whether to back up the archive logs or not.
-* ORACLE_BACKUP_MODE specifies whether to perform online or offline backup.
-
+* ORACLE_BACKUPMODE specifies whether to perform online or offline backup.
+* ORACLE_EXPORT_PARAMETERS specifies whether the environment variables defined above should be re-exported while running _/bin/su <user running sqlplus> -c sqlplus /nolog <cmd>_. This is typically the case, when the user who is running sqlplus has not set all environment variables necessary to connect to the database using _connect / as sysdba_.
 
 
 
