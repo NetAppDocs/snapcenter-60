@@ -52,7 +52,6 @@ SnapCenter provides the following permissions:
 * Dashboard
 * Reports
 * Restore
- ** Full Volume Restore (only for Custom Plug-ins)
 * Resource
 +
 Plug-in privileges are required from the administrator for non-administrators to perform resource discovery operation.
