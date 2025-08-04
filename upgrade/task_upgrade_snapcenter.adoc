@@ -49,7 +49,7 @@ In the *Job details* page, a warning message recommends that the customer should
 https://mysupport.netapp.com/site/products/all/details/snapcenter/downloads-tab
 
 . Create a copy of the web.config located at C:\Program Files\NetApp\SnapCenter WebApp.
-. Export SnapCenter plug-in host schedules from the Windows Task Scheduler to restore them if the upgrade fails.
+. Export the SnapCenter plug-in host schedules from the Windows Task Scheduler to restore them if the upgrade fails.
 +
 `md d:\\SCBackup``schtasks /query /xml /TN taskname >> "D:\SCBackup\taskname.xml"`
 . Create the SnapCenter MySQL database dump if the repository backup is not configured.
@@ -66,9 +66,9 @@ NOTE: SnapCenter will continue to use the existing MySQL Server repository datab
 
 . Select *Upgrade*.
 +
-At any stage if you select the *Cancel* button, SnapCenter cancels the upgrade workflow. The system does not roll back the SnapCenter Server to its previous state.
+If you select *Cancel* at any stage, SnapCenter stops the upgrade. The SnapCenter Server does not roll back to its previous state.
 +
-*Best Practice:* You should either log out and then log into SnapCenter, or close and then open a new browser to access SnapCenter User Interface.
+*Best Practice:* Log out and log in again, or open a new browser to access the SnapCenter User Interface.
 
 .After you finish
 
