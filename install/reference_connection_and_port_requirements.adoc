@@ -30,7 +30,7 @@ The following table lists the different ports and their default values.
 | Type of port | Default port
 
 a|
-SnapCenter port
+SnapCenter web port
 a|
 8146 (HTTPS), bidirectional, customizable, as in the URL _\https://server:8146_
 
