@@ -13,7 +13,7 @@ To enable certificate-based authentication for SnapCenter Server and the Windows
 
 * To enable client certificate-based authentication:
 +
-`Set-SmConfigSettings -Agent –configSettings @{"EnableClientCertificateAuthentication"="true"}` `-HostName` `<<hostname>>`
+`Set-SmConfigSettings -Agent –configSettings @{"EnableClientCertificateAuthentication"="true"}` `-HostName` `hostname`
 * To disable client certificate-based authentication:
 +
-`Set-SmConfigSettings -Agent –configSettings @{"EnableClientCertificateAuthentication"="false"}` `-HostName` `<<hostname>>``
+`Set-SmConfigSettings -Agent –configSettings @{"EnableClientCertificateAuthentication"="false"}` `-HostName` `hostname`
